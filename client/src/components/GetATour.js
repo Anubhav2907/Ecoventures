@@ -69,7 +69,9 @@ function GetATour() {
               <button className="btn1">View</button>
             </div>
           </div>
-          <button className="btn btn-success">See all Projects and Designs</button>
+          <button className="btn btn-success">
+            See all Projects and Designs
+          </button>
         </main>
       </div>
     </div>

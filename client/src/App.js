@@ -1,8 +1,12 @@
 import React from "react";
-import GetATour from "./components/GetATour";
+import Services from "./components/Services";
 
 function App() {
-  return <div><GetATour></GetATour></div>;
+  return (
+    <div>
+      <Services></Services>
+    </div>
+  );
 }
 
 export default App;

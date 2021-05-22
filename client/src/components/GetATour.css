@@ -63,12 +63,15 @@ body {
     color: rgb(98, 189, 98);
     font-family: 'Open Sans', sans-serif;
 }
-.getcontent{
+
+.getcontent {
     margin-top: 0.5em;
 }
-.intro{
+
+.intro {
     font-size: 0.8em;
 }
+
 @media (min-width: 600px) {
     .page-content {
         grid-template-columns: repeat(2, 1fr);
