@@ -84,7 +84,7 @@ body {
     }
 }
 
-.card {
+.getCard {
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -98,12 +98,12 @@ body {
 }
 
 @media (min-width: 600px) {
-    .card {
+    .getCard {
         height: 250px;
     }
 }
 
-.card:before {
+.getCard:before {
     content: "";
     position: absolute;
     top: 0;
@@ -116,7 +116,7 @@ body {
     pointer-events: none;
 }
 
-.card:after {
+.getCard:after {
     content: "";
     display: block;
     position: absolute;
@@ -130,35 +130,35 @@ body {
     transition: transform calc(var(--d) * 2) var(--e);
 }
 
-.card:nth-child(1):before {
+.getCard:nth-child(1):before {
     background-image: url(https://images.unsplash.com/photo-1572085313466-6710de8d7ba3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
 }
 
-.card:nth-child(2):before {
+.getCard:nth-child(2):before {
     background-image: url(https://images.unsplash.com/photo-1559749284-7a6971fd798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
 }
 
-.card:nth-child(3):before {
+.getCard:nth-child(3):before {
     background-image: url(https://images.unsplash.com/photo-1463554050456-f2ed7d3fec09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
 }
 
-.card:nth-child(4):before {
+.getCard:nth-child(4):before {
     background-image: url(https://images.unsplash.com/photo-1444392061186-9fc38f84f726?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
 }
 
-.card:nth-child(5):before {
+.getCard:nth-child(5):before {
     background-image: url(https://images.unsplash.com/photo-1610388662357-85cd6d39872a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
 }
 
-.card:nth-child(6):before {
+.getCard:nth-child(6):before {
     background-image: url(https://images.unsplash.com/photo-1593006778578-43c2f2b03812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
 }
 
-.card:nth-child(7):before {
+.getCard:nth-child(7):before {
     background-image: url(https://images.unsplash.com/photo-1593006778578-43c2f2b03812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
 }
 
-.card:nth-child(8):before {
+.getCard:nth-child(8):before {
     background-image: url(https://images.unsplash.com/photo-1523438885200-e635ba2c371e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
 }
 
@@ -215,7 +215,7 @@ body {
 }
 
 @media (hover: hover) and (min-width: 600px) {
-    .card:after {
+    .getCard:after {
         transform: translateY(0);
     }
     .content {
@@ -226,24 +226,24 @@ body {
         transform: translateY(1rem);
         transition: transform var(--d) var(--e), opacity var(--d) var(--e);
     }
-    .card:hover, .card:focus-within {
+    .getCard:hover, .getCard:focus-within {
         align-items: center;
     }
-    .card:hover:before, .card:focus-within:before {
+    .getCard:hover:before, .getCard:focus-within:before {
         transform: translateY(-4%);
     }
-    .card:hover:after, .card:focus-within:after {
+    .getCard:hover:after, .getCard:focus-within:after {
         transform: translateY(-50%);
     }
-    .card:hover .content, .card:focus-within .content {
+    .getCard:hover .content, .getCard:focus-within .content {
         transform: translateY(-20%);
     }
-    .card:hover .content>*:not(.title), .card:focus-within .content>*:not(.title) {
+    .getCard:hover .content>*:not(.title), .getCard:focus-within .content>*:not(.title) {
         opacity: 1;
         transform: translateY(0);
         transition-delay: calc(var(--d) / 8);
     }
-    .card:focus-within:before, .card:focus-within:after, .card:focus-within .content, .card:focus-within .content>*:not(.title) {
+    .getCard:focus-within:before, .getCard:focus-within:after, .getCard:focus-within .content, .getCard:focus-within .content>*:not(.title) {
         transition-duration: 0s;
     }
 }

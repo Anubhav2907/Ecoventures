@@ -1,0 +1,48 @@
+
+.container1 {
+    padding:2em 6em !important;
+}
+
+.getATour {
+    width: 100% !important;
+    /* margin-left: 2.1em; */
+}
+.colorLine {
+    width: 53px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.gettext {
+    font-size: 2.5em;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    margin-bottom: 10px;
+}
+.getcontent {
+    margin-top: 0.2em;
+}
+
+.intro {
+    font-size: 1em;
+    width: 45%;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.second-row{
+    display: flex;
+    justify-content: space-around;
+}
+.element{
+    text-align: center;
+}
+.fa{
+    font-size: 3em;
+}
