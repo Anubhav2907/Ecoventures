@@ -13,56 +13,56 @@ function GetATour() {
       </div>
       <div className="border">
         <main className="page-content">
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Front Lawn</h2>
               <p>New Delhi</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Terrace Garden</h2>
               <p>New Delhi</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Backyard</h2>
               <p>Panipat</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Terrace Garden</h2>
               <p>New Delhi</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Backyard</h2>
               <p>Gurgaon</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Terrace Garden</h2>
               <p>New Delhi</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Balcony Garden</h2>
               <p>Gurgaon</p>
               <button className="btn1">View</button>
             </div>
           </div>
-          <div className="card">
+          <div className="getCard">
             <div className="content">
               <h2 className="title">Lawn</h2>
               <p>Noida</p>
