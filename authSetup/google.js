@@ -1,6 +1,11 @@
 const passport = require("passport");
-const User = require("./models/vendor");
+const express = require("express");
+const app = express();
+const User = require("../model/vendor");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const bodyParser = require("body-parser");
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 passport.use(User.createStrategy());
 passport.serializeUser(function (user, done) {
   done(null, user.id);
@@ -15,7 +20,7 @@ passport.use(
       clientID:
         "449888918750-7oljqj7f755kjakpnrfhligf6ih0rsu9.apps.googleusercontent.com",
       clientSecret: "C_cRdDzR7qyC5HsxD-Sgh6tt",
-      callbackURL: "http://localhost:3000/google/callback",
+      callbackURL: "http://localhost:5000/google/callback",
     },
     function (accessToken, refreshToken, profile, done) {
       /*
