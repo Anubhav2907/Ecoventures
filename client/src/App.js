@@ -2,11 +2,11 @@ import React from "react";
 // import Services from "./components/Services";
 // import GetATour from "./components/GetATour";
 // import Top from "./components/top";
-import GotQuestions from "./components/GotQuestions";
+import Instagram from "./components/instagram";
 function App() {
   return (
     <div>
-      <GotQuestions></GotQuestions>
+      <Instagram></Instagram>
     </div>
   );
 }
