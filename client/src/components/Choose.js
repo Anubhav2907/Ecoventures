@@ -2,7 +2,7 @@ import React from "react";
 import "./Choose.css";
 function Choose() {
   return (
-    <div>
+    <div className="choose">
       <div className="top-text">
         <h3>Why people are choosing us</h3>
       </div>

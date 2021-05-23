@@ -10,14 +10,14 @@
 .getATour {
     width: 100% !important;
     margin-bottom: 1em;
-    /* margin-left: 2.1em; */
+    /* margin-left: 2.tour .1em; */
 }
 
-.outer {
+.tour .outer {
     padding: 3em;
 }
 
-.border {
+.tour .border {
     border: 3.5px solid rgb(0, 0, 0) !important;
     width: 100% !important;
     height: 100%;
@@ -31,9 +31,7 @@
 p {
     margin: 0 !important;
 }
-
-html, body {
-    height: 100%;
+body {
     overflow-x: hidden;
 }
 
@@ -42,7 +40,7 @@ body {
     place-items: center;
 }
 
-.page-content {
+.tour .page-content {
     display: grid;
     grid-gap: 1rem;
     padding: 2em;
@@ -51,40 +49,40 @@ body {
     font-family: var(--font-sans);
 }
 
-.colorLine {
+.tour .colorLine {
     width: 53px;
     height: 10px;
     background-color: rgb(98, 189, 98);
 }
 
-.gettext {
-    font-size: 2em;
+.tour .gettext {
+    font-size: 2.5em;
     font-weight: 1000;
     color: rgb(98, 189, 98);
     font-family: 'Open Sans', sans-serif;
 }
 
-.getcontent {
+.tour .getcontent {
     margin-top: 0.5em;
 }
 
-.intro {
+.tour .intro {
     font-size: 0.8em;
 }
 
 @media (min-width: 600px) {
-    .page-content {
+    .tour .page-content {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 800px) {
-    .page-content {
+    .tour .page-content {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-.getCard {
+.tour .getCard {
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -98,12 +96,12 @@ body {
 }
 
 @media (min-width: 600px) {
-    .getCard {
+    .tour .getCard {
         height: 250px;
     }
 }
 
-.getCard:before {
+.tour .getCard:before {
     content: "";
     position: absolute;
     top: 0;
@@ -116,7 +114,7 @@ body {
     pointer-events: none;
 }
 
-.getCard:after {
+.tour .getCard:after {
     content: "";
     display: block;
     position: absolute;
@@ -130,39 +128,39 @@ body {
     transition: transform calc(var(--d) * 2) var(--e);
 }
 
-.getCard:nth-child(1):before {
+.tour .getCard:nth-child(1):before {
     background-image: url(https://images.unsplash.com/photo-1572085313466-6710de8d7ba3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
 }
 
-.getCard:nth-child(2):before {
+.tour .getCard:nth-child(2):before {
     background-image: url(https://images.unsplash.com/photo-1559749284-7a6971fd798e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
 }
 
-.getCard:nth-child(3):before {
+.tour .getCard:nth-child(3):before {
     background-image: url(https://images.unsplash.com/photo-1463554050456-f2ed7d3fec09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
 }
 
-.getCard:nth-child(4):before {
+.tour .getCard:nth-child(4):before {
     background-image: url(https://images.unsplash.com/photo-1444392061186-9fc38f84f726?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
 }
 
-.getCard:nth-child(5):before {
+.tour .getCard:nth-child(5):before {
     background-image: url(https://images.unsplash.com/photo-1610388662357-85cd6d39872a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80);
 }
 
-.getCard:nth-child(6):before {
+.tour .getCard:nth-child(6):before {
     background-image: url(https://images.unsplash.com/photo-1593006778578-43c2f2b03812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
 }
 
-.getCard:nth-child(7):before {
+.tour .getCard:nth-child(7):before {
     background-image: url(https://images.unsplash.com/photo-1593006778578-43c2f2b03812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
 }
 
-.getCard:nth-child(8):before {
+.tour .getCard:nth-child(8):before {
     background-image: url(https://images.unsplash.com/photo-1523438885200-e635ba2c371e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
 }
 
-.content {
+.tour .content {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -175,24 +173,24 @@ body {
     z-index: 1;
 }
 
-.content>*+* {
+.tour .content>*+* {
     margin-top: 1rem;
 }
 
-.title {
+.tour .title {
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.2;
 }
 
-.copy {
+.tour .copy {
     font-family: var(--font-serif);
     font-size: 1.125rem;
     font-style: italic;
     line-height: 1.35;
 }
 
-.btn1 {
+.tour .btn1 {
     cursor: pointer;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
@@ -205,11 +203,11 @@ body {
     border: none;
 }
 
-.btn1:hover {
+.tour .btn1:hover {
     background-color: #0d0d0d;
 }
 
-.btn1:focus {
+.tour .btn1:focus {
     outline: 1px dashed yellow;
     outline-offset: 3px;
 }

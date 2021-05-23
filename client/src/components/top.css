@@ -2,7 +2,12 @@
 .container1 {
     padding:2em 3em !important;
 }
-
+.topSection{
+    margin: 3em 0;
+    padding: 3em 0;
+    background-color:#e8edee !important;
+    padding-bottom: 5em;
+}
 .top {
     width: 100% !important;
     /* margin-left: 2.1em; */

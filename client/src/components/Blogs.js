@@ -2,9 +2,13 @@ import React from "react";
 import "./Blogs.css";
 function Blogs() {
   return (
-    <div>
-      <div class="row">
-        <div class="example-2 card">
+    <div className="blogsSection">
+      <div className="gotBlog">
+        <div className="BlogColor"></div>
+        <p className="BlogText">Blog Section</p>
+      </div>
+      <div class="row1">
+        <div class="example-2 blogCard">
           <div
             class="wrapper"
             style={{
@@ -12,7 +16,7 @@ function Blogs() {
             }}
           >
             <div class="header">
-              <ul class="menu-content">
+              <ul class="menu-cntnt">
                 <li>
                   <a href="#" class="fa fa-bookmark-o"></a>
                 </li>
@@ -29,7 +33,7 @@ function Blogs() {
               </ul>
             </div>
             <div class="data">
-              <div class="content">
+              <div class="cntnt">
                 <span class="author">Jane Doe</span>
                 <h1 class="title">
                   <a href="#">Scenerio of Urban Gardening Services</a>
@@ -45,7 +49,7 @@ function Blogs() {
             </div>
           </div>
         </div>
-        <div class="example-2 card">
+        <div class="example-2 blogCard">
           <div
             class="wrapper"
             style={{
@@ -53,7 +57,7 @@ function Blogs() {
             }}
           >
             <div class="header">
-              <ul class="menu-content">
+              <ul class="menu-cntnt">
                 <li>
                   <a href="#" class="fa fa-bookmark-o"></a>
                 </li>
@@ -70,7 +74,7 @@ function Blogs() {
               </ul>
             </div>
             <div class="data">
-              <div class="content">
+              <div class="cntnt">
                 <span class="author">Jane Doe</span>
                 <h1 class="title">
                   <a href="#">Scenerio of Urban Gardening Services</a>
@@ -86,7 +90,7 @@ function Blogs() {
             </div>
           </div>
         </div>
-        <div class="example-2 card">
+        <div class="example-2 blogCard">
           <div
             class="wrapper"
             style={{
@@ -94,7 +98,7 @@ function Blogs() {
             }}
           >
             <div class="header">
-              <ul class="menu-content">
+              <ul class="menu-cntnt">
                 <li>
                   <a href="#" class="fa fa-bookmark-o"></a>
                 </li>
@@ -111,7 +115,7 @@ function Blogs() {
               </ul>
             </div>
             <div class="data">
-              <div class="content">
+              <div class="cntnt">
                 <span class="author">Jane Doe</span>
                 <h1 class="title">
                   <a href="#">Scenerio of Urban Gardening Services</a>
