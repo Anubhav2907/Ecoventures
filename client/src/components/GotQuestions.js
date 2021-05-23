@@ -6,7 +6,7 @@ function GotQuestions() {
     <div className="gotcontainer1">
       <div className="gotQuestions">
         <div className="gotColor"></div>
-        <p className="gotText">got questions?</p>
+        <p className="gotText">Got questions?</p>
         <div className="gotContent">
           <p className="gotIntro">
             Get in touch with a design consultant today. Check our FAQ's, call

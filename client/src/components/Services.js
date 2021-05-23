@@ -3,7 +3,8 @@ import React from "react";
 import "./Services.css";
 function Services() {
   return (
-    <div className="container1">
+    <div style={{textAlign:"center"}} className="container1">
+    <h1 className="services-text">Trending Services of the week</h1>
       <section class="cards">
         <article class="card card--1">
           <div class="card__img"></div>
