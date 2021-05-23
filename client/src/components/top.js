@@ -4,9 +4,9 @@ import "./top.css";
 function Services() {
   return (
     <div className="container1">
-      <div className="getATour">
-        <div className="colorLine"></div>
-        <p className="gettext">Outdoor living for next generation</p>
+      <div className="top">
+        <div className="topLine"></div>
+        <p className="topText">Outdoor living for next generation</p>
         <div className="getcontent">
           <p className="intro">
             Transform your outdoor spaces such as terraces, lawns and backyards
