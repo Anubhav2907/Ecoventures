@@ -1,19 +1,19 @@
 
 .container1 {
-    padding:2em 6em !important;
+    padding:2em 3em !important;
 }
 
-.getATour {
+.top {
     width: 100% !important;
     /* margin-left: 2.1em; */
 }
-.colorLine {
+.topLine {
     width: 53px;
     height: 10px;
     background-color: rgb(0, 0, 0);
 }
 
-.gettext {
+.topText {
     font-size: 2.5em;
     font-weight: 1000;
     color: rgb(0, 0, 0);
