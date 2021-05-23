@@ -1,6 +1,5 @@
 import React from "react";
 import "./Blogs.css";
-// import "./BlogStyles.js";
 function Blogs() {
   return (
     <div>
