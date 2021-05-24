@@ -1,0 +1,217 @@
+.land-img {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.land-image {
+    object-fit: cover;
+    width: 90%;
+    height: 550px;
+}
+
+.landscape-text {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landscape-text-below {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.land-head {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(12, 138, 22);
+}
+
+.land-below-head {
+    font-size: 1.8em;
+    font-weight: 650;
+    color: rgb(12, 138, 22);
+}
+
+.land-subhead {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.15cm;
+}
+
+.land-text {
+    max-width: 65%;
+    text-align: center;
+    margin-top: 10px !important;
+    line-height: 1.65 !important;
+    color: rgb(97, 91, 91);
+}
+
+.btn {
+    margin-top: 1em !important;
+    padding: 0.6em 2em !important;
+}
+
+.landscape-go {
+    display: flex;
+    padding: 2em;
+    background-color: rgb(247, 247, 247);
+}
+
+.landscape-go-left {
+    width: 50%;
+}
+
+.landscape-go-right {
+    display: flex;
+    width: 50%;
+}
+
+.go-head {
+    font-size: 1.8em;
+    font-weight: 650;
+    color: rgb(12, 138, 22);
+}
+
+.go-subhead {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.1cm;
+}
+
+.go-text {
+    max-width: 85%;
+    margin-top: 10px !important;
+    line-height: 1.65 !important;
+    color: rgb(97, 91, 91);
+}
+
+.land-right-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.land-right-text {
+    text-align: center;
+    max-width: 85%;
+    color: rgb(97, 91, 91);
+    line-height: 1.65 !important;
+}
+
+.land-right-head {
+    margin-top: 0.7em!important;
+    margin-bottom: 0.3em!important;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.landscape-go2-right {
+    display: flex;
+    width: 50%;
+}
+
+.landscape-go2-left {
+    width: 50%;
+    padding-left: 3.5em;
+    padding-top: 1em;
+}
+
+.landscape-go2 {
+    display: flex;
+    padding: 2em;
+    padding-left: 0 !important;
+}
+
+.landscape-3 {
+    display: flex;
+    padding: 2em;
+    background-color: rgb(247, 247, 247);
+    justify-content: space-between;
+}
+
+.land-31-head {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.land-31 {
+    text-align: center;
+    max-width: 30%;
+}
+
+.land-31-span {
+    font-size: 2.2em;
+    font-weight: 650;
+}
+
+.land-img-section {
+    padding: 3em;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.land-bottom-img {
+    width: 50%;
+}
+
+.land-bottom-head {
+    font-size: 2.5em;
+    margin-bottom: 0.6em;
+    font-weight: 700 !important;
+}
+
+.land-bottom-text {
+    width: 50%;
+    text-align: center;
+}
+
+.land-bottom-lead {
+    padding: 0 2em;
+    text-align: center;
+}
+
+.bottom-image-land {
+    width: 95%;
+}
+
+.land-faq-head {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 0!important;
+}
+
+.text p {
+    font-size: 1em;
+    color: rgb(114, 112, 112);
+    margin-bottom: 10px !important;
+}
+
+.land-faq {
+    display: flex;
+    flex-direction:row;
+    padding: 2em;
+    margin-top: 1em;
+    background-color: rgb(247, 247, 247);
+}
+.land-faq-heading{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px !important ;
+}
+.faq-left{
+    max-width:50%;
+    padding-right: 2em !important;
+}
+.faq-right{
+    max-width:50%;
+    padding: 1em 0 !important;
+    margin-top: 4em;
+}
