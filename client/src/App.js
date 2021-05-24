@@ -10,6 +10,8 @@ import Navbar from "./components/NavBar";
 import NavBar2 from "./components/NavBar2";
 import Review from "./components/Reviews";
 import Footer from "./components/Footer";
+import Landscaping from "./components/Landscaping";
+import GreenVilla from "./components/GreenVilla";
 function App() {
   return (
     <div>
@@ -24,6 +26,8 @@ function App() {
       <GotQuestions></GotQuestions>
       <Instagram></Instagram>
       <Footer></Footer>
+      <Landscaping></Landscaping>
+      <GreenVilla></GreenVilla>
     </div>
   );
 }
