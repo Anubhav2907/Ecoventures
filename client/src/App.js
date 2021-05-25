@@ -12,12 +12,14 @@ import Review from "./components/Reviews";
 import Footer from "./components/Footer";
 import Landscaping from "./components/Landscaping";
 import GreenVilla from "./components/GreenVilla";
+import Video from "./components/Video";
 function App() {
   return (
     <div>
       <Navbar></Navbar>
       <NavBar2></NavBar2>
-      <Top></Top>
+      <Video />
+       <Top></Top>
       <GetATour style={{ backgroundColor: "black !important" }}></GetATour>
       <Choose></Choose>
       <Services></Services>
