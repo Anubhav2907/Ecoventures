@@ -1,0 +1,454 @@
+.terrace-img {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.terrace-image {
+    object-fit: cover;
+    width: 90%;
+    height: 550px;
+}
+
+.terracescape-text {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terracescape-text-below {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.terrace-head {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(12, 138, 22);
+}
+
+.terrace-below-head {
+    font-size: 1.8em;
+    font-weight: 650;
+    color: rgb(12, 138, 22);
+}
+
+.terrace-subhead {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.15cm;
+}
+
+.terrace-text {
+    max-width: 65%;
+    text-align: center;
+    margin-top: 10px !important;
+    line-height: 1.65 !important;
+    color: rgb(97, 91, 91);
+}
+
+.btn {
+    margin-top: 1em !important;
+    padding: 0.6em 2em !important;
+}
+
+.terracescape-tg {
+    display: flex;
+    padding: 4em 2em;
+    background-color: rgb(247, 247, 247);
+}
+
+.terracescape-tg-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3em;
+    width: 50%;
+    text-align: center;
+}
+
+.terracescape-tg-right {
+    display: flex;
+    width: 50%;
+}
+
+.tg-head {
+    font-size: 2.2em;
+    font-weight:600;
+    color: rgb(0, 0, 0);
+    padding: 0 2em;
+}
+
+.tg-subhead {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.1cm;
+}
+
+.tg-text {
+    margin-top: 10px !important;
+    line-height: 1.65 !important;
+    color: rgb(97, 91, 91);
+    padding: 0 3em;
+}
+
+.terrace-right-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terrace-right-text {
+    padding: 0 8em;
+    text-align: center;
+    color: rgb(97, 91, 91);
+    line-height: 1.65 !important;
+}
+
+.terrace-right-head {
+    margin-top: 0.7em!important;
+    margin-bottom: 0.3em!important;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.terracescape-tg2-right {
+    display: flex;
+    width: 50%;
+}
+
+.terracescape-tg2-left {
+    width: 50%;
+    padding-left: 3.5em;
+    padding-top: 1em;
+}
+
+.terracescape-tg2 {
+    display: flex;
+    padding: 2em;
+    padding-left: 0 !important;
+}
+
+.terracescape-3 {
+    display: flex;
+    padding: 2em;
+    background-color: rgb(247, 247, 247);
+    justify-content: space-between;
+}
+
+.terrace-31-head {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.terrace-31 {
+    text-align: center;
+    max-width: 30%;
+}
+
+.terrace-31-span {
+    font-size: 2.2em;
+    font-weight: 650;
+}
+
+.terrace-img-section {
+    padding: 3em;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.terrace-bottom-img {
+    width: 50%;
+}
+
+.terrace-bottom-head {
+    font-size: 2.5em;
+    margin-bottom: 0.6em;
+    font-weight: 700 !important;
+}
+
+.terrace-bottom-text {
+    width: 50%;
+    text-align: center;
+}
+
+.terrace-bottom-lead {
+    padding: 0 2em;
+    text-align: center;
+}
+
+.bottom-image-terrace {
+    width: 95%;
+}
+
+.terrace-faq-head {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 0!important;
+}
+
+.text p {
+    font-size: 1em;
+    color: rgb(114, 112, 112);
+    margin-bottom: 10px !important;
+}
+
+.terrace-faq {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin-top: 1em;
+    background-color: rgb(247, 247, 247);
+}
+
+.terrace-faq-heading {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px !important;
+}
+
+.faq-left {
+    max-width: 50%;
+    padding-right: 2em !important;
+}
+
+.faq-right {
+    max-width: 50%;
+    padding: 1em 0 !important;
+    margin-top: 4em;
+}
+.land-img {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.land-image {
+    object-fit: cover;
+    width: 90%;
+    height: 550px;
+}
+
+.terrace-landscape-text {
+    padding: 1.5em 0;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.terrace-landscape-text-below {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+    background-color: rgb(247, 247, 247);
+}
+
+.terrace-landscape-text-below {
+    background-color: rgb(247, 247, 247);
+}
+
+.land-head {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(12, 138, 22);
+}
+
+.land-subhead {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.15cm;
+}
+
+.land-text {
+    max-width: 65%;
+    text-align: center;
+    margin-top: 10px !important;
+    line-height: 1.65 !important;
+    color: rgb(97, 91, 91);
+}
+
+.btn {
+    margin-top: 1em !important;
+    padding: 0.6em 2em !important;
+}
+
+.landscape-terrace {
+    display: flex;
+    padding: 2em;
+}
+
+.terrace-villa-img {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 600px;
+}
+
+.landscape-terrace-right {
+    display: flex;
+    padding-left: 2em;
+    width: 50%;
+}
+
+.landscape-terrace-left {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.terrace1-head {
+    font-size: 1.8em;
+    font-weight: 650;
+    color: rgb(12, 138, 22);
+}
+
+.terrace-mid-text {
+    margin-top: 10px !important;
+    line-height: 1.65 !important;
+    color: rgb(97, 91, 91);
+}
+
+.land-right-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.land-right-text {
+    text-align: center;
+    max-width: 85%;
+    color: rgb(97, 91, 91);
+    line-height: 1.65 !important;
+}
+
+.land-right-head {
+    margin-top: 0.7em!important;
+    margin-bottom: 0.3em!important;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.landscape-terrace2-right {
+    display: flex;
+    width: 50%;
+}
+
+.landscape-terrace2-left {
+    padding: 0 3em;
+    width: 50%;
+    text-align: center;
+    margin: auto 0;
+}
+
+.landscape-terrace2 {
+    display: flex;
+    padding: 2em;
+    padding-left: 0 !important;
+    background-color: rgb(247, 247, 247);
+}
+
+.terrace-left-left {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+}
+
+.terrace-left-right {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.terrace-6-head {
+    font-size: 1.4em !important;
+    font-weight: 650;
+}
+
+.terrace-6 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+
+.terrace1-que{
+    padding-left: 5px;
+    margin-bottom: 13px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.terrace1{
+    padding:5px;
+}
+.terrace-6 p {
+    color: rgb(78, 77, 77);
+}
+
+.terrace-3-div-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.terrace-3-div-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.terrace-3-div-right h1 {
+    font-weight: bold !important;
+}
+
+.terrace-3-div-left h1 {
+    font-weight: bold !important;
+}
+
+.terrace-3-div-right h4 {
+    color: green;
+    font-weight: 700 !important;
+    font-size: 1.3em;
+}
+
+.terrace-3-div-left h4 {
+    color: green;
+    font-size: 1.3em;
+    font-weight: 700 !important;
+}
+.land-faq {
+    display: flex;
+    flex-direction:row;
+    padding: 2em;
+    margin-top: 1em;
+    background-color: rgb(247, 247, 247);
+}
+.land-faq-heading{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px !important ;
+}
+.vg-left{
+    max-width:50%;
+    padding-right: 2em !important;
+    padding: 0 2em !important;
+}
+.vg-right{
+    max-width:50%;
+    padding: 1em 0 !important;
+    margin-top: 4em;
+    padding: 0 2em !important;
+}
