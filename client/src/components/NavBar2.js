@@ -27,14 +27,13 @@ const NavBar2 = () =>
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Landscaping</MenuItem>
+        <MenuItem onClick={handleClose}>Green Villa</MenuItem>
+        <MenuItem onClick={handleClose}>Green Roof</MenuItem>
+        <MenuItem onClick={handleClose}>Air Purifier</MenuItem>
+        <MenuItem onClick={handleClose}>Vertical Garden</MenuItem>
+        <MenuItem onClick={handleClose}>Plant Scaping</MenuItem>
+        <MenuItem onClick={handleClose}>Kitchen Garden</MenuItem>
       </Menu>
         <Button>How it works?</Button>
         <Button style={{ fontWeight: "bold" }}>book mali</Button>
