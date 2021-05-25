@@ -9,8 +9,15 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     positionX: "2px",
     display: "none",
+    color:'#3ca65a',
+    fontWeight:'bold',
+    fontSize: '1.6em',
     [theme.breakpoints.up("sm")]: {
       display: "inherit"
+    },
+    '&:hover':{
+      textDecoration: 'none',
+      color:'green',
     }
   },
   search: {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Services from "./Services";
 import GetATour from "./GetATour";
 import Top from "./top";
@@ -12,24 +12,23 @@ import Review from "./Reviews";
 import Footer from "./Footer";
 import Video from "./Video";
 
-const Home = () => {
-    return (
-        <div>
-        <Navbar></Navbar>
+function Home() {
+  return (
+    <div>
+      <Navbar></Navbar>
       <NavBar2></NavBar2>
-      {/* <Video /> */}
-       <Top></Top>
-      <GetATour style={{ backgroundColor: "black !important" }}></GetATour>
+      <Video></Video>
+      <Top></Top>
+      <GetATour></GetATour>
       <Choose></Choose>
       <Services></Services>
       <Review></Review>
       <Blogs></Blogs>
       <GotQuestions></GotQuestions>
       <Instagram></Instagram>
-      <Footer></Footer> 
-        </div>
-    )
+      <Footer></Footer>
+    </div>
+  );
 }
 
-export default Home
-
+export default Home;
