@@ -9,6 +9,8 @@ import GreenRoof from "./components/GreenRoof";
 import KitchenGarden from "./components/KitchenGarden";
 import VerticalGarden from "./components/VerticalGarden";
 import TerraceGarden from "./components/TerraceGarden";
+import Form from "./components/Form";
+
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +23,8 @@ function App() {
           <Route path="/AirPurifier" exact component={AirPurifier}></Route>
           <Route path="/GreenRoof" exact component={GreenRoof}></Route>
           <Route path="/KitchenGarden" exact component={KitchenGarden}></Route>
+          <Route path="/login" exact component={Form}></Route>
+
           <Route
             path="/VerticalGarden"
             exact
